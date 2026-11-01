@@ -26,7 +26,7 @@ Copy-Item .env.example .env
 # Edit .env and add OPENAI_API_KEY and TAVILY_API_KEY
 uvicorn app.main:app --reload
 ```
-API docs: http://127.0.0.1:8000/docs
+API docs: https://researchnet-tsn5.onrender.com/docs
 
 ## Frontend setup (new terminal)
 ```powershell
