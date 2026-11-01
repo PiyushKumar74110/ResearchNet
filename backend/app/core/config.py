@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     openai_api_key: str = ""
     tavily_api_key: str = ""
     openai_model: str = "gpt-4o-mini"
-    frontend_origin: str = "http://localhost:5173"
+    frontend_origin: str = "https://researchnet-1.onrender.com/"
 
     model_config = SettingsConfigDict(
         env_file=".env",

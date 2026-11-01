@@ -1,6 +1,6 @@
 import type { ResearchEvent, ResearchJob } from "../types/research";
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? "http://localhost:8000").replace(/\/$/, "");
+const API_BASE = (import.meta.env.VITE_API_BASE_URL ?? "https://researchnet-tsn5.onrender.com").replace(/\/$/, "");
 
 async function parseError(response: Response): Promise<Error> {
   const body = await response.json().catch(() => ({}));
